@@ -1,6 +1,8 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+languageCode = "fr-FR"
 title = "My New Hugo Site"
+
+defaultContentLanguage = "fr"
 
 theme = "learn"
 
@@ -14,9 +16,9 @@ home = [ "HTML", "RSS", "JSON"]
   # Allez voir le fichier config.toml de cette documentation pour avoir un exemple.
   editURL = ""
   # Autheur du site, est utilisé dans les informations meta
-  author = ""
+  author = "philippe.pbillerot@gmail.com"
   # Description du site, est utilisé dans les informations meta
-  description = ""
+  description = "Guide d'administration du site de la Foire Exposition de Saint-Maixent-l'École"
   # Affiche une icône lorsque la page a été visitée
   showVisitedLinks = false
   # Désactive la fonction de recherche. Une valeur à true cache la barre de recherche.
@@ -32,7 +34,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Il redirige vers la page d'accueil de la langue actuelle si cela est spécifié. (La valeur par défaut est "/")
   disableLandingPageButton = true
   # Si défini à true, empêche Hugo d'inclure le module "mermaid" s'il n'est pas nécessaire (réduira les temps de chargement et le trafic)
-  disableMermaid = false
+  disableMermaid = true
   # Spécifie l'emplacement distant du mermaid js
   customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
   # Quand vous utilisez un site multi-langue, utilisez ce paramètre pour désactiver le bouton de changement de langue.
@@ -42,4 +44,5 @@ home = [ "HTML", "RSS", "JSON"]
   # Utilisez ce paramètre pour modifier le schéma de couleur du site. Les valeurs par défaut sont "red", "blue", "green".
   themeVariant = ""
   # Fournissez une liste de fichiers css personnalisés à charger par rapport depuis le dossier `static/` à la racine du site.
-#   custom_css = ["css/foo.css", "css/bar.css"]
+  custom_css = ["css/custom.css"]
+  

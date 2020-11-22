@@ -1,0 +1,7 @@
+/*
+ * Customisation du site
+ */
+
+#body .padding {
+    padding: 3rem 3rem;
+}
